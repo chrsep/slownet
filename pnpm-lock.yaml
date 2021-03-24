@@ -1,5 +1,5 @@
 devDependencies:
-  '@sveltejs/adapter-node': 1.0.0-next.10
+  '@sveltejs/adapter-vercel': 1.0.0-next.8
   '@sveltejs/kit': 1.0.0-next.57_svelte@3.35.0+vite@2.1.2
   svelte: 3.35.0
   svelte-preprocess: 4.6.9_svelte@3.35.0+typescript@4.2.3
@@ -19,10 +19,10 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-TrBhfJkFxA+ER+ew2U2/fHbebhLT/l/2pRk0hfj9KusXUuRXd2v0R58AfaZK9VXDQ4TogOSEmICVrQAA3zFnHQ==
-  /@sveltejs/adapter-node/1.0.0-next.10:
+  /@sveltejs/adapter-vercel/1.0.0-next.8:
     dev: true
     resolution:
-      integrity: sha512-v62a9nQguK53ldwBp4FizvwW1Kh2wOZBjJKGlnZFhO9e1Z/LoIqR9LH5dVHz9d5K19or5ap3hRdS91WkkDgu4w==
+      integrity: sha512-bclTDgJIDt17QRdq+u4CqdsQO08MXYhqdlr7O7LcCMWf8PWS5N0l9ValJbKAFcXD5xseqRF9YtUkHKAxMjS54Q==
   /@sveltejs/kit/1.0.0-next.57_svelte@3.35.0+vite@2.1.2:
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.5_svelte@3.35.0+vite@2.1.2
@@ -371,7 +371,7 @@ packages:
     resolution:
       integrity: sha512-K96k5Nb1kywggFwZNGf/NQVZIrjMSvjebYWFIEQRu8AQWtzxatMF8/reExFXebmrfWAT3PTUk6l4zJBkpMtyVg==
 specifiers:
-  '@sveltejs/adapter-node': next
+  '@sveltejs/adapter-vercel': next
   '@sveltejs/kit': next
   svelte: ^3.29.0
   svelte-preprocess: ^4.0.0
