@@ -64,10 +64,10 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.8.tgz#61a32e02d1b46e8f8e99e28d1ce1892553f38346"
   integrity sha512-bclTDgJIDt17QRdq+u4CqdsQO08MXYhqdlr7O7LcCMWf8PWS5N0l9ValJbKAFcXD5xseqRF9YtUkHKAxMjS54Q==
 
-"@sveltejs/kit@1.0.0-next.58":
-  version "1.0.0-next.58"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.58.tgz#fe7b307ec0c493b8fb4915feacbe3c6f4e527ff4"
-  integrity sha512-Ta4VY1Wxc533+hwnPwEVMgMn43L1lwafTLZHksXO3rpnl/+IcXV1v6j4cTTkQiqEslU4wMZyxIpzWzZGQAypPg==
+"@sveltejs/kit@1.0.0-next.60":
+  version "1.0.0-next.60"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.60.tgz#bd7dea4f26012648254ca05b8a17f669deedecfe"
+  integrity sha512-1dpec/fm6bMSOnMyJacboxiK3jLFF7h8pHp8xi+KXb7V4UAGtnjCvRPpk6fggmXQ40mCdrxf/my0fS+0Ci6x+g==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.5"
     cheap-watch "^1.0.3"
