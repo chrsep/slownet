@@ -14,6 +14,12 @@
   })
 </script>
 
-<main>
-  <div class="w-screen h-screen" bind:this={mapContainer} />
-</main>
+<head>
+  <title>Slownet</title>
+</head>
+
+<div class="fixed h-16 top-2 left-16 bg-white z-50 rounded shadow p-3 flex items-center">
+  Test
+</div>
+
+<div class="w-screen h-screen z-0" bind:this={mapContainer} />
