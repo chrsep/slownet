@@ -1,4 +1,6 @@
 {
   "automerge": true,
-  "extends": ["config:base"]
+  "extends": ["config:base"],
+  "stabilityDays": 5,
+  "prCreation": "not-pending"
 }
