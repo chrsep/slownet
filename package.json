@@ -10,27 +10,27 @@
     "@sveltejs/adapter-vercel": "1.0.0-next.8",
     "@sveltejs/kit": "1.0.0-next.60",
     "@tailwindcss/jit": "0.1.15",
-    "@types/leaflet": "^1.7.0",
+    "@types/leaflet": "1.7.0",
     "autoprefixer": "10.2.5",
     "cssnano": "4.1.10",
-    "leaflet": "^1.7.1",
+    "leaflet": "1.7.1",
     "postcss": "8.2.8",
     "postcss-load-config": "3.0.1",
-    "prettier": "^2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
+    "prettier": "2.2.1",
+    "prettier-plugin-svelte": "2.2.0",
     "svelte": "3.35.0",
     "svelte-preprocess": "4.7.0",
     "tailwindcss": "2.0.4",
     "tslib": "2.1.0",
     "typescript": "4.2.3",
     "vite": "2.1.3",
-    "vite-imagetools": "^3.1.0"
+    "vite-imagetools": "3.1.0"
   },
   "type": "module",
   "engines": {
     "node": ">= 12.17.0"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "2.6.1"
   }
 }
