@@ -1,9 +1,13 @@
+<script context="module">
+  export const prerender = true
+</script>
+
 <script lang="ts">
   import { onMount, tick } from "svelte"
   import { browser } from "$app/env"
   import type { Map } from "leaflet"
 
-  let mapContainer: HTMLDivElement
+  let mapContainer
   let map: Map
 
   onMount(async () => {
@@ -14,8 +18,6 @@
       map = setupMap(mapContainer)
     }
   })
-
-  export const prerender = true
 </script>
 
 <head>
