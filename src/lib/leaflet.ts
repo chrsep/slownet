@@ -2,8 +2,8 @@ import { map, tileLayer } from "leaflet"
 
 export const setupMap = (mapContainer) => {
   const myMap = map(mapContainer, {
-    center: [51.505, -0.09],
-    zoom: 13,
+    center: [-6.549169, 106.805146],
+    zoom: 10,
     preferCanvas: true,
   })
 
