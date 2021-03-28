@@ -14,6 +14,8 @@
       map = setupMap(mapContainer)
     }
   })
+
+  export const prerender = true
 </script>
 
 <head>
