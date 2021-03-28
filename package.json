@@ -9,7 +9,7 @@
   "devDependencies": {
     "@sveltejs/adapter-vercel": "1.0.0-next.8",
     "@sveltejs/kit": "1.0.0-next.60",
-    "@tailwindcss/jit": "0.1.10",
+    "@tailwindcss/jit": "0.1.15",
     "@types/leaflet": "^1.7.0",
     "autoprefixer": "10.2.5",
     "cssnano": "4.1.10",
