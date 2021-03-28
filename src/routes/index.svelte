@@ -1,15 +1,17 @@
 <script lang="ts">
   import { onMount, tick } from "svelte"
   import { browser } from "$app/env"
+  import type { Map } from "leaflet"
 
-  let mapContainer
+  let mapContainer: HTMLDivElement
+  let map: Map
 
   onMount(async () => {
     await tick()
 
     if (browser) {
       const { setupMap } = await import("$lib/leaflet")
-      setupMap(mapContainer)
+      map = setupMap(mapContainer)
     }
   })
 </script>
@@ -18,7 +20,9 @@
   <title>Slownet</title>
 </head>
 
-<div class="fixed h-16 top-2 left-16 bg-white z-50 rounded shadow p-3 flex items-center">
+<div
+  class="fixed h-16 top-2 left-16 bg-white z-50 rounded shadow p-3 flex items-center"
+>
   Test
 </div>
 
