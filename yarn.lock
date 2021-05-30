@@ -2107,10 +2107,10 @@ vendors@^1.0.3:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite-imagetools@3.6.7:
-  version "3.6.7"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-3.6.7.tgz#0d8325e4ed0d7742101b5d9ef77ecafd4dea7dd5"
-  integrity sha512-mYbBo9lMuX9QsOvpNQNynJA8sVz5HKUdQinb0Slyaok+2cv0VYh7K+LCX3jwL94rMSNIN/p7carAWKLGjUQarg==
+vite-imagetools@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-3.6.8.tgz#a62588f7eceb61a7f1accdb596307b0c2d379353"
+  integrity sha512-hGtUhcvSIMXBe/yg215ccrszXG/LqU4aaFonfa2Oq5GLTZ91MJIaX7UWWF9cl+siZJ456ZUawpYqCeYIuurdmQ==
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
     imagetools-core "^2.7.5"
