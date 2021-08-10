@@ -2,5 +2,5 @@
   "automerge": true,
   "extends": ["config:base", "schedule:monthly"],
   "stabilityDays": 5,
-  "prCreation": "not-pending"
+  "automergeType": "branch"
 }
