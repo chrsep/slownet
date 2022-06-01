@@ -11,7 +11,7 @@
     "@sveltejs/kit": "1.0.0-next.71",
     "@tailwindcss/jit": "0.1.18",
     "@types/leaflet": "1.7.9",
-    "autoprefixer": "10.4.4",
+    "autoprefixer": "10.4.7",
     "cssnano": "5.1.5",
     "leaflet": "1.7.1",
     "postcss": "8.4.12",
